@@ -10,10 +10,10 @@ import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
 @EnableEurekaClient
-public class SpringBootForMicroservicesApplication {
+public class EurekaGalleryApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootForMicroservicesApplication.class, args);
+		SpringApplication.run(EurekaGalleryApplication.class, args);
 	}
 
 }
