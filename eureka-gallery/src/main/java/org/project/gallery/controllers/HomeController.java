@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 @RestController
-@RequestMapping("")
+@RequestMapping("/")
 public class HomeController {
 
 	@Autowired
@@ -43,7 +43,7 @@ public class HomeController {
 		return "Hello from Gallery Service running at port: " + env.getProperty("local.server.port");
 	}
 
-	@RequestMapping("/{id/")
+	@RequestMapping("/{id}")
 	public Gallery getGallery(@PathVariable final int id) {
 
 		Gallery gallery = new Gallery();
