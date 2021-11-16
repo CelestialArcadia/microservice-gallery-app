@@ -1,4 +1,4 @@
-package org.project.gallery.entities;
+package com.eureka.gallery.entities;
 
 import java.util.List;
 
