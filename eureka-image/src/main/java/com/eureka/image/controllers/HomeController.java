@@ -1,11 +1,12 @@
-package org.project.gallery.controllers;
+package com.eureka.image.controllers;
 
 import java.util.Arrays;
 import java.util.List;
 
-import org.project.gallery.model.Image;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.eureka.image.model.Image;
 
 @RestController
 @RequestMapping("/")

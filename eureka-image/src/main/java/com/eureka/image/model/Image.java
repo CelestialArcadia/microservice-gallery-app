@@ -1,4 +1,4 @@
-package org.project.gallery.model;
+package com.eureka.image.model;
 
 public class Image {
 
